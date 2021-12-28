@@ -6,7 +6,7 @@
           fill: #ffffff;
         }
       }
-      html[data-color-mode="auto"] path, {
+      html[data-color-mode="dark"] path, {
         fill: #ffffff;
       }
     </style>
