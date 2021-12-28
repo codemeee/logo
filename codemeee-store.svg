@@ -6,8 +6,8 @@
       .first { fill: #13AE67; }
       .second { fill: #079156; }
       .third { fill: #007E49; }
-      @media (prefers-color-scheme: dark) { html[data-color-mode="auto"] path { fill: #ffffff; } }
-      html[data-color-mode="dark"] path { fill: #ffffff; }
+      @media (prefers-color-scheme: dark) { html[data-color-mode="auto"] .base, .black, .first, .second, .third { fill: #ffffff; } }
+      html[data-color-mode="dark"] .base, .black, .first, .second, .third { fill: #ffffff; }
     </style>
     <path d="M12.11 21L0 42L12.11 35V21Z" class="second"></path>
     <path d="M24.24 42H48.51L36.35 35L24.24 42Z" class="third"></path>
