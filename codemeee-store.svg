@@ -1,8 +1,8 @@
-<svg fill="currentColor" height="42" viewBox="0 0 253 42" width="253" xmlns="http://www.w3.org/2000/svg">
+<svg height="42" viewBox="0 0 253 42" width="253">
   <g>
     <style>
       .logo {
-        fill: #000000;
+        fill: #111111;
       }
       .first {
         fill: #13AE67;
@@ -13,11 +13,13 @@
       .third {
         fill: #007E49;
       }
+
       @media (prefers-color-scheme: dark) {
         html[data-color-mode="auto"] .logo, .first, .second, .third {
           fill: #ffffff;
         }
       }
+
       html[data-color-mode="dark"] .logo, .first, .second, .third {
         fill: #ffffff;
       }
