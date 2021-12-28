@@ -18,9 +18,12 @@
     <path d="M243.65 28.1V14.21H252.1V15.15H244.67V20.62H251V21.56H244.71V27.15H252.1V28.15L243.65 28.1Z" fill="#13AE67"></path>
     <style>
       @media (prefers-color-scheme: dark) {
-        path {
+        html[data-color-mode="auto"] path 
           fill: #ffffff;
         }
+      }
+      html[data-color-mode="auto"] path 
+        fill: #ffffff;
       }
     </style>
   </g>
